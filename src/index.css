@@ -1,10 +1,43 @@
-*{
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    height: 100vh;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
     background: #161513;
     color: white;
-    font-family: 'outfit' ;
+    font-family: 'Outfit', sans-serif;
+}
+
+.logo-text {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 3px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: white;
+}
+
+.logo-drop {
+    width: 16px;
+    height: 12px;
+    margin-bottom: 8px;
+    border-radius: 0 14px 14px 14px;
+    background: linear-gradient(135deg, #B415FF, #ff1fb4);
+}
+
+@media (max-width: 768px) {
+    .logo-text {
+        font-size: 34px;
+    }
 }

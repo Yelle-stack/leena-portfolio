@@ -113,3 +113,8 @@
         gap: 30px;
     }
 }
+
+@media(max-width:600px) {
+    .services { margin: 20px 30px; }
+    .services-container { grid-template-columns: 1fr; }
+}

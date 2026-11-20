@@ -116,6 +116,10 @@
     transition: 0.5s;
 }
 
+@media(max-width:1200px) {
+    .about { margin: 80px 50px; }
+}
+
 @media(max-width:768px) {
     .about {
         gap: 80px;

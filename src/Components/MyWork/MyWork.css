@@ -32,8 +32,9 @@
 
 .mywork-container img {
     box-sizing: border-box;
-    width: 419px;
-    height: 280px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 419 / 280;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -61,6 +62,10 @@
 .mywork-showmore:hover {
     gap: 30px;
     transition: 0.6s;
+}
+
+@media(max-width:1200px) {
+    .mywork { margin: 80px 50px; }
 }
 
 @media(max-width:768px) {

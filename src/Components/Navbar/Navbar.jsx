@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import './Navbar.css';
-import logo from '../../assets/logo.PNG';
 import underline from '../../assets/nav_underline.svg';
 import menu_open from '../../assets/menu_open.svg';
 import menu_close from '../../assets/menu_close.svg';
@@ -30,78 +29,40 @@ const Navbar = () => {
   return (
     <div className="navbar">
 
-      <img src={logo} alt="logo" className="logo" />
+      <a href="#home" className="logo-text">
+        Leena<span className="logo-drop"></span>
+      </a>
 
       {!isMenuOpen && (
-        <img
-          src={menu_open}
-          alt="Open Menu"
-          className="nav-mob-open"
-          onClick={openMenu}
-        />
+        <img src={menu_open} alt="Open Menu" className="nav-mob-open" onClick={openMenu} />
       )}
 
       <ul ref={menuRef} className="nav-menu">
 
-        <img
-          src={menu_close}
-          alt="Close Menu"
-          className="nav-mob-close"
-          onClick={closeMenu}
-        />
+        <img src={menu_close} alt="Close Menu" className="nav-mob-close" onClick={closeMenu} />
 
         <li>
-          <a
-            href="#home"
-            className="anchor-link"
-            onClick={() => handleMenuClick("home")}
-          >
-            Home
-          </a>
+          <a href="#home" className="anchor-link" onClick={() => handleMenuClick("home")}>Home</a>
           {menu === "home" && <img src={underline} alt="" />}
         </li>
 
         <li>
-          <a
-            href="#about"
-            className="anchor-link"
-            onClick={() => handleMenuClick("about")}
-          >
-            About Me
-          </a>
+          <a href="#about" className="anchor-link" onClick={() => handleMenuClick("about")}>About Me</a>
           {menu === "about" && <img src={underline} alt="" />}
         </li>
 
         <li>
-          <a
-            href="#services"
-            className="anchor-link"
-            onClick={() => handleMenuClick("services")}
-          >
-            Services
-          </a>
+          <a href="#services" className="anchor-link" onClick={() => handleMenuClick("services")}>Services</a>
           {menu === "services" && <img src={underline} alt="" />}
         </li>
 
         <li>
-          <a
-            href="#work"
-            className="anchor-link"
-            onClick={() => handleMenuClick("work")}
-          >
-            Portfolio
-          </a>
+          <a href="#work" className="anchor-link" onClick={() => handleMenuClick("work")}>Portfolio</a>
           {menu === "work" && <img src={underline} alt="" />}
         </li>
 
         <li>
-          <a
-            href="#contact"
-            className="anchor-link"
-            onClick={() => handleMenuClick("contact")}
-          >
-            Contact
-          </a>
+          <a href="#contact" className="anchor-link" onClick={() => handleMenuClick("contact")}>Contact</a>
           {menu === "contact" && <img src={underline} alt="" />}
         </li>
 
