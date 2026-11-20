@@ -1,33 +1,37 @@
-# 🌐 Portfolio Yelle
+# 🌐 Portfolio Leena
 
-Welcome to my personal portfolio!
+A modern and responsive personal portfolio built with **React** and **Vite** to showcase my frontend development skills, services, and selected projects.
 
-This project showcases my frontend development skills, services, and a selection of my projects. It was built to demonstrate my experience with modern web technologies and to provide an easy way for potential employers and clients to learn more about me.
+🔗 **Live demo:** [portfolio-yelle.vercel.app](https://portfolio-yelle.vercel.app)
 
-![image alt](https://github.com/Yelle-stack/portfolio_yelle/blob/1be0f6e171e7dd2320f915a1ab13151f6832297a/portfolioLeena.png)---
+![Portfolio Leena](./portfolio.png)
+
+---
 
 ## 🚀 Technologies
 
-- React.js
+- React 19
 - JavaScript (ES6+)
 - HTML5
-- CSS3
+- CSS3 (Flexbox, Grid, media queries)
 - Vite
+- Web3Forms (contact form)
+- ESLint
 - Git & GitHub
+- Vercel (deployment)
 
 ---
 
 ## ✨ Features
 
-- Responsive design
-- Smooth scrolling navigation
-- Hero section
-- About Me section
-- Skills showcase
+- Fully responsive design (desktop, tablet, mobile)
+- Smooth scrolling navigation with a mobile slide-in menu
+- Hero section with a call to action
+- About section with skills and key figures
 - Services section
-- Portfolio projects gallery
-- Contact form
-- Modern UI with animations
+- Portfolio gallery
+- Working contact form (messages are sent by email)
+- Hover animations and a gradient-based dark UI
 
 ---
 
@@ -35,7 +39,6 @@ This project showcases my frontend development skills, services, and a selection
 
 ```text
 portfolio_yelle/
-│
 ├── public/
 ├── src/
 │   ├── assets/
@@ -48,9 +51,11 @@ portfolio_yelle/
 │   │   ├── Navbar/
 │   │   └── Services/
 │   ├── App.jsx
+│   ├── index.css
 │   └── main.jsx
-│
+├── index.html
 ├── package.json
+├── vite.config.js
 └── README.md
 ```
 
@@ -62,11 +67,6 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Yelle-stack/portfolio_yelle.git
-```
-
-Navigate to the project folder:
-
-```bash
 cd portfolio_yelle
 ```
 
@@ -82,53 +82,26 @@ Start the development server:
 npm run dev
 ```
 
-Open your browser and visit:
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
-```text
-http://localhost:5173
-```
+### Available scripts
 
----
-
-## 📸 Preview
-
-You can add a screenshot of your portfolio here.
-
-Example:
-
-```md
-![Portfolio Screenshot](./src/assets/screenshot.png)
-```
-
----
-
-## 🌍 Live Demo
-
-Once deployed, add your website link here.
-
-Example:
-
-```text
-https://your-portfolio.com
-```
+| Command           | Description                    |
+| ----------------- | ------------------------------ |
+| `npm run dev`     | Start the development server   |
+| `npm run build`   | Create a production build      |
+| `npm run preview` | Preview the production build   |
+| `npm run lint`    | Check the code with ESLint     |
 
 ---
 
 ## 📬 Contact
 
-**Jelena Zeko**
-
+**Leena**
 📍 France
-
 📧 creation.siteweb@yahoo.com
-GitHub: https://github.com/Yelle-stack
+💻 GitHub: [Yelle-stack](https://github.com/Yelle-stack)
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-⭐ If you like this project, feel free to give it a star on GitHub!
+⭐ 
