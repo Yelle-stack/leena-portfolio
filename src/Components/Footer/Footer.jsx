@@ -23,12 +23,12 @@ const Footer = () => {
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">
-          © 2026 Leena. All rights reserved. Design and Development by <span className='footer-name'>Leena</span>
+         © 2026 <span className='footer-name'>Leena</span>. All rights reserved.
         </p>
         <div className="footer-bottom-right">
           <p>Terms of Service</p>
           <p>Privacy Policy</p>
-          <p>Connect with me</p>
+          <a href="#contact">Connect with me</a>
         </div>
       </div>
     </div>

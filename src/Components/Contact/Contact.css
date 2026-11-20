@@ -102,6 +102,7 @@
 }
 
 .contact-submit {
+    font-family: Outfit;
     border: none;
     color: white;
     border-radius: 50px;
@@ -164,8 +165,9 @@
         font-size: 20px;
     }
     .contact-right textarea {
-        width: 95%;
+        width: 100%;
         font-size: 20px;
+        resize: vertical;
     }
     .contact-submit {
         font-size: 20px;
